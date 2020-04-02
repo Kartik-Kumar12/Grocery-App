@@ -1,6 +1,8 @@
 import React from "react";
 
+//ListItem component for displaying list items
 function ListItem(props) {
+  //function to be called on  onlick event
   function handleClick() {
     props.onDelete(props.id);
   }

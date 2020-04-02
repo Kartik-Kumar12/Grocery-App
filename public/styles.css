@@ -3,8 +3,8 @@
   margin: 0;
   box-sizing: border-box;
 }
-html {
 
+html {
   min-height: 800px;
   background-image: url('images/backg.jpg');
   background-repeat: no-repeat;
@@ -17,7 +17,7 @@ h1,
 h2 {
   color: #fff;
   padding: 10px;
-  font-family: "McLaren", cursive;
+  font-family: cursive;
   font-weight: 200;
 }
 
@@ -26,6 +26,10 @@ header {
   margin: auto -16px;
   padding: 16px 32px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  font-size: 3.5rem;
 }
 
 footer {
@@ -39,6 +43,7 @@ footer {
 footer p {
   color: #ccc;
 }
+
 .headBox {
   background-color: #ccda46;
   text-align: center;
@@ -47,6 +52,7 @@ footer p {
   border-radius: 5px;
   box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
 }
+
 .box {
   max-width: 400px;
   margin: 50px auto;
@@ -54,6 +60,7 @@ footer p {
   border-radius: 5px;
   box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
 }
+
 .item {
   min-height: 70px;
   display: flex;
@@ -65,31 +72,24 @@ footer p {
   border-bottom: 0;
 }
 
-input:checked + p {
-  text-decoration: line-through;
-  text-decoration-color: #ccda46;
-}
-
-input[type="checkbox"] {
-  margin: 20px;
-}
-
 p {
   margin: 0;
   padding: 20px;
   font-size: 20px;
   font-weight: 200;
-  color: #00204a;
+  color: black;
 }
 
 form {
   text-align: center;
   margin-left: 20px;
 }
+
 i {
   color: #ccda46;
   margin: 1rem;
 }
+
 button {
   min-height: 50px;
   width: 50px;
