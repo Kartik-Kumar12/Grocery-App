@@ -9,7 +9,7 @@ function ListItem(props) {
 
   return (
     <div className="item">
-      <i className="fas fa-shopping-basket fa-2x" onClick={handleClick} />
+      <i className="fas fa-shopping-basket fa-1x" onClick={handleClick} />
       <p>{props.content}</p>
     </div>
   );

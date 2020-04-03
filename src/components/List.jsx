@@ -27,7 +27,7 @@ function List() {
 
   return (
     <div className="box">
-    //looping through note array to map the items with following attributes
+  
       {notes.map((noteItem, index) => {
         return (
           <ListItem
