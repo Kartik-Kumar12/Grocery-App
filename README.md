@@ -14,7 +14,7 @@ You will also see any lint errors in the console.</p>
 
 
   <h2><i> Functionality specs :</i></h2>
-     <h4> > Addtion of item in the list on onSubmit event</h4>
+     <h4> > Addition of item in the list on onSubmit event</h4>
      <h4> > Deletion of item from the list on onClick event</h4>
      <h4> > Displaying of items being added to the grocery list app </h4>
 
